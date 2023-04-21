@@ -1,4 +1,4 @@
-  .Geral {text-align: center;}
+   .Geral {text-align: center;}
     
     ul {display: flex;
       flex-direction: column;
@@ -9,14 +9,15 @@
       .fotos {
         display: flex;
         overflow-y: hidden;
-        justify-content: center;
-        }
+        justify-content: center;}
       
 
     
       .fotos img {
-        max-width: 100%;
-        max-height: 500px;
+        max-width: 80%;
         margin-right: 8px;
+        max-width: 210px;
         height: auto;
         padding-right: 10px;}
+      
+    
