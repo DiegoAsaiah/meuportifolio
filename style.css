@@ -11,13 +11,13 @@
         overflow-y: hidden;
         justify-content: center;}
       
-
-    
-      .fotos img {
-        max-width: 80%;
-        margin-right: 8px;
-        max-width: 210px;
-        height: auto;
-        padding-right: 10px;}
-      
+        @media only screen and (max-width: 600px) {
+          .fotos img {
+            max-width: 100%;
+            height: auto;
+            margin-right: 0;
+            padding-right: 0;
+          }
+        }
+        
     
