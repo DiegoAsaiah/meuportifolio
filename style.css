@@ -1,4 +1,4 @@
-   .Geral {text-align: center;}
+  .Geral {text-align: center;}
     
     ul {display: flex;
       flex-direction: column;
@@ -8,8 +8,9 @@
     
       .fotos {
         display: flex;
-        overflow-x: scroll;
-        overflow-y: hidden}
+        overflow-y: hidden;
+        justify-content: center;
+        }
       
 
     
@@ -19,5 +20,3 @@
         margin-right: 8px;
         height: auto;
         padding-right: 10px;}
-      
-    
