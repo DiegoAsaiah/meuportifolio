@@ -6,6 +6,8 @@ ul {display: flex;
   align-items: center;}
 
 .TXTGREEN {color: green}
+audio {margin-left: 40%;}
+
 
 .fotos {
   display: flex;
