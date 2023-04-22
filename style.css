@@ -12,9 +12,9 @@
       justify-content: center;}
       
       
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     .fotos img {
-      max-width: 150px;}
+      max-width: 120px;}
         }
         
         
