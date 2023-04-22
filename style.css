@@ -13,7 +13,15 @@ audio {
 
 .video{text-align: center;}
 
-.linkdv{text-align: center;}
+.linkdv {
+  text-align: center;
+}
+
+.linkdv iframe {
+  max-width: 100%;
+  height: auto;
+}
+
 
 .fotos {
   display: flex;
