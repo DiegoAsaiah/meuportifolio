@@ -13,6 +13,8 @@ audio {
 
 .video{text-align: center;}
 
+.linkdv{text-align: center;}
+
 .fotos {
   display: flex;
   overflow-y: hidden;
