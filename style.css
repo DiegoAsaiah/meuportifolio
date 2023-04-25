@@ -26,15 +26,19 @@ audio {
 .fotos {
   display: flex;
   overflow-y: hidden;
-  justify-content: center;}
+  justify-content: center;
+  }
   
 
   @media only screen and (max-width: 768px) {
   .fotos img {
       max-width: 125px;
-    margin-right: 4px;}
- }
+    margin-right: 1px;}
+  }
   
+  .txt {
+    text-align: justify;
+  }
 
 
   
