@@ -1,14 +1,23 @@
 .Geral {text-align: center;}
-body {background-image: linear-gradient(to right, #CAD606, #DED70B);}
+body {background-image: linear-gradient(to right, #d6c106, #d8ba13);}
     
+h2 {
+  text-decoration: underline black;
+}
+
 ul {display: flex;
   flex-direction: column;
   align-items: center;}
 
 .TXTGREEN {color: hwb(120 0% 50%)}
 audio {
+  text-decoration: underline;
   display: block;
   margin: 0 auto;
+}
+
+.point {
+  text-decoration: underline;
 }
 
 .video{text-align: center;}
@@ -36,9 +45,22 @@ audio {
     margin-right: 1px;}
   }
   
+  @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
   .txt {
     text-align: justify;
   }
 
+  .txtm {
+    font-family: 'Kalam', cursive, sans-serif;
+  }
 
+.insta {
+  width: 2.3em;
+}
+
+.lista {
+  justify-content: center;
+  margin-right: 0.8em;
+}
   
