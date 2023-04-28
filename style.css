@@ -5,6 +5,41 @@ h2 {
   text-decoration: underline black;
 }
 
+.nome{
+  text-shadow: 0.5em 0.5em 1em black;
+}
+
+.pagina {
+display: flex;
+justify-content: center;
+margin: auto;
+text-align: center;
+background-color: rgba(0, 128, 0, 0.397);
+border-width: 0em;
+max-width: 11em;
+padding-top: 1em;
+text-decoration: underline overline black;
+border-radius: 3em;
+}
+
+ .trabalhos {
+  text-align: center;
+  color: green;
+  text-decoration: underline;
+  background-color: black;
+  border-radius: 10px;
+  }
+
+.sbm {
+  background-color: rgba(60, 255, 0, 0.267);
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  border-radius: .5em;
+  box-shadow: .5em .5em 1em rgba(0, 0, 0, 0.301);
+}
+
 ul {display: flex;
   flex-direction: column;
   align-items: center;}
@@ -49,6 +84,7 @@ audio {
 
   .txt {
     text-align: justify;
+    margin: 2em;
   }
 
   .txtm {
