@@ -14,12 +14,8 @@ h2 {
 }
 
 .pagina {
-display: flex;
-justify-content: center;
 margin: auto;
-text-align: center;
-background-color: rgba(0, 128, 0, 0.397);
-border-width: 0em;
+display: flex;
 max-width: 11em;
 padding-top: 1em;
 text-decoration: underline overline black;
