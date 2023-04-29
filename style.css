@@ -2,6 +2,26 @@
   max-width: 100%;
 }
 
+body {
+  margin: auto;
+
+}
+nav {
+  display: flex;
+  background-color: black;
+  justify-content: right;
+  padding: 10px;
+}
+
+
+.navegador {
+  
+  margin-right: 30px;
+  color: white;
+  text-decoration: none; 
+  }
+
+
 .Geral {text-align: center;}
 body {background-image: linear-gradient(45deg, #f8ea7c, #f5ea85);}
     
@@ -13,22 +33,14 @@ h2 {
   text-shadow: 0.5em 0.5em 1em black;
 }
 
-.pagina {
-margin: auto;
-display: flex;
-max-width: 11em;
-padding-top: 1em;
-text-decoration: underline overline black;
-border-radius: 3em;
-}
+
 
  .trabalhos {
   text-align: center;
   color: green;
   text-decoration: underline;
   background-color: black;
-  border-radius: 10px;
-  }
+  margin-bottom: 15px;  }
 
 .sbm {
   background-color: rgba(60, 255, 0, 0.267);
@@ -95,4 +107,27 @@ audio {
   justify-content: center;
   margin-right: 0.8em;
 }
+  
+.conteiner {
+  display: flex; flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pagina {
+ width: 150px;
+ height: 100px;
+ border: 5px solid #1df80079;
+ border-left: 10px solid #1df80079;
+ border-right: 10px solid #1df80079;
+ border-radius: 40px;
+ box-shadow: -2px 2px 2px rgb(238, 255, 0);
  
+}
+
+.fim{
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 35px;
+
+}
