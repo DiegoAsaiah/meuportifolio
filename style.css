@@ -16,12 +16,25 @@ nav {
   overflow: hidden;
 }
 
+.links:hover{
+  color: #b0e0e6;
+  border: 1px solid #b0e0e6;
+  background-color: black;
+}
+
+.navegador:hover{
+  color: rgb(233, 233, 79);
+  border: 1px solid #b0e0e6;
+  background-color: black;
+}
+
 
 .navegador {
   
   margin-right: 30px;
   color: white;
   text-decoration: none; 
+  font-size: 14px;
   }
 
 
@@ -72,6 +85,7 @@ audio {
 
 .video{text-align: center;}
 
+
 .linkdv {
   text-align: center;
 }
@@ -116,6 +130,11 @@ audio {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.pagina:hover{
+  width: 180px;
+  height: 130px;
 }
 
 .pagina {
