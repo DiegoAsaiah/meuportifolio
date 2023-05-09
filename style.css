@@ -56,11 +56,14 @@ h2 {
 
 
  .trabalhos {
+  font-size: bold;
+  font-family: monospace;
   text-align: center;
   color: green;
-  text-decoration: underline;
-  background-color: black;
-  margin-bottom: 15px;  }
+  background-color: rgb(2 36 0);
+  padding: 0px 10px 0px 10px;
+  margin: -2px 0px 0px 0px;  }
+
 
 .sbm {
   background-color: rgba(60, 255, 0, 0.267);
@@ -76,7 +79,11 @@ ul {display: flex;
   flex-direction: column;
   align-items: center;}
 
-.TXTGREEN {color: hwb(120 0% 50%)}
+.TXTGREEN {
+  color: hwb(120 0% 50%);
+  margin: 10px 0px 10px 0px
+}
+
 audio {
   text-decoration: underline;
   display: block;
@@ -163,7 +170,7 @@ audio {
   
 }
 
-@media(max-width: 600px) {
+@media(max-width: 768px) {
   .fotos img {
     max-width: 125px;
     margin-right: 1px;
