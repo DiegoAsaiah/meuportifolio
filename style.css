@@ -8,19 +8,40 @@
   
   body {
   margin: auto;
-  
+  }
+
+ h1.entrada {
+    padding: 35px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    font-variant: small-caps;
   }
   
   nav {
+  margin: 0px 0px 50px 0px;
   display: flex;
   background-color: black;
-  justify-content: right;
-  padding: 10px;
-  position: fixed;
+  justify-content: space-evenly;
+  position: sticky;
+  top: -1px;
   width: 100%;
   overflow: hidden;
   }
   
+  .navegador {
+    margin-right: 21px;
+    color: white;
+    text-decoration: none; 
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    
+    }
+    
+
   .links:hover{
   color: #b0e0e6;
   border: 1px solid #b0e0e6;
@@ -30,20 +51,19 @@
   .navegador:hover{
   color: rgb(233, 233, 79);
   border: 1px solid #b0e0e6;
-  background-color: black;
+  background-color: rgb(57, 50, 0);
+  transition-duration: 0.5s;
   }
   
   
-  .navegador {
-  margin-right: 21px;
-  color: white;
-  text-decoration: none; 
-  font-size: 14px;
-  }
   
   
   .Geral {text-align: center;}
   body {background-image: linear-gradient(45deg, #f8ea7c, #f5ea85);}
+
+  .qse {
+    margin: 20px;
+  }
   
   h2 {
   text-decoration: underline black;
@@ -128,6 +148,7 @@
     line-height: 30x;
   font-family: monospace;
   padding: 0px 50px;
+  font-size: 25px;
   }
   
   .txtm a {
@@ -188,52 +209,62 @@
   }
   
   @media(max-width: 600px) {
-  .fotos img {
-  max-width: 125px;
-  margin-right: 1px;
-  }
-  
-  .linkdv {
-  text-align: center;
-  margin: auto;
-  width: 350px;
-  height: 200px;
-  max-width: 98%;
-  }
-  
-  .pagina {
-  display: flex;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border: 5px solid #1df80079;
-  border-left: 10px solid #1df80079;
-  border-right: 10px solid #1df80079;
-  border-radius: 40px;
-  margin: 0px 13px 0px 30px;
-  }
-  
-  nav {
-  display: flex;
-  background-color: black;
-  justify-content: right;
-  position: fixed;
-  width: 100%;
-  overflow: hidden;
-  }
-  
-  .navegador {
-  margin: 0px;
-  padding: 5px 10px 5px 10px;
-  color: white;
-  text-decoration: none; 
-  font-size: 11px;
-  }
 
-  .txtm {
-    line-height: 30x;
-  font-family: monospace;
-  padding: 0px 20px;
+    h1.entrada {
+      padding: 35px;
+      color: white;
+      background-color: black;
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Playfair Display', serif;
+      font-variant: small-caps;
+    }
+
+    nav {
+      display: flex;
+      background-color: black;
+      justify-content: right;
+      width: 100%;
+      }
+      
+      .navegador {
+      padding: 5px 1px 10px 1px;
+      color: white;
+      text-decoration: none; 
+      font-size: 12px;
+      }
+
+      .fotos img {
+      max-width: 125px;
+      margin-right: 1px;
+      }
+
+      .linkdv {
+      text-align: center;
+      margin: auto;
+      width: 350px;
+      height: 200px;
+      max-width: 98%;
+      }
+
+      .pagina {
+      display: flex;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border: 5px solid #1df80079;
+      border-left: 10px solid #1df80079;
+      border-right: 10px solid #1df80079;
+      border-radius: 40px;
+      margin: 0px 13px 0px 30px;
+      }
+
+
+      .txtm {
+        font-size: 16px;
+      line-height: 30x;
+      font-family: monospace;
+      padding: 0px 20px;
   }
     
   }
